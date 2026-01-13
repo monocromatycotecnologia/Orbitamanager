@@ -1,37 +1,91 @@
-# Orbitamanager
+# Orbitamanager - ERP para Mono Cromat & Co.
 
-A comprehensive project management solution.
+## 📊 Descripción del Proyecto
 
-## Project Structure
+Orbitamanager es un ERP completo diseñado para gestionar todos los aspectos del negocio Mono Cromat & Co. desde una única plataforma.
+
+## ✨ Características Principales
+
+### 1. Dashboard
+- Informes en tiempo real
+- KPIs y métricas clave
+- Gráficos de ventas y análisis
+
+### 2. Gestión de Ventas
+- Crear cotizaciones
+- Crear recibos de venta
+- Convertir cotizaciones en ventas
+- Editar cotizaciones y recibos
+- Exportar a PDF
+
+### 3. Gestión Financiera
+- Cuentas por cobrar
+- Cuentas por pagar
+- Agregar abonos
+- Restar del saldo
+
+### 4. Base de Datos
+- Información de clientes
+- Información de proveedores
+- Historial de transacciones
+
+### 5. Inventario
+- Stock e inventario de materia prima
+- Control de cantidades
+- Alertas de stock bajo
+
+### 6. Planificación y Control
+- Deadlines
+- Cronograma de actividades
+- Calendario editorial para redes sociales
+
+### 7. Automatización
+- Envío de emails automático (cotizaciones y recibos)
+- Notificaciones de eventos
+- Recordatorios
+
+## 🛠️ Stack Tecnológico
+
+- **Backend:** Node.js + Express + PostgreSQL
+- **Frontend:** React + Tailwind CSS
+- **Autenticación:** JWT
+- **Exportación:** PDF con jsPDF
+- **Email:** Nodemailer
+- **Estado:** Redux o Context API
+
+## 📁 Estructura del Proyecto
 
 ```
 Orbitamanager/
-├── backend/          # Backend services and APIs
-├── frontend/         # Frontend application
-├── package.json      # Workspace configuration
-└── README.md         # This file
+├── backend/          # API REST y lógica del servidor
+├── frontend/         # Aplicación React
+├── .gitignore
+├── .env.example
+├── README.md
+└── package.json
 ```
 
-## Getting Started
+## 🚀 Inicio Rápido
 
-### Prerequisites
-- Node.js (v16 or higher)
-- Python 3.8+ (for backend)
-
-### Installation
-
+### Backend
 ```bash
-npm run install-all
+cd backend
+npm install
+cp .env.example .env
+npm run dev
 ```
 
-### Development
+### Frontend
+```bash
+cd frontend
+npm install
+npm start
+```
 
-Instructions for running the project in development mode will be added here.
+## 📝 Licencia
 
-## Contributing
+Proyecto privado para Mono Cromat & Co.
 
-Please read our contributing guidelines before submitting pull requests.
+## 👤 Propietario
 
-## License
-
-To be determined.
+monocromatycotecnologia
